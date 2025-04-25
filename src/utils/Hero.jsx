@@ -4,7 +4,7 @@ import Button from "./Button";
 
 function Hero({ area, title, description, button }) {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#F5F5F5] w-full">
+    <div className="flex flex-col items-center font-'equip' justify-center bg-[#F5F5F5] w-full">
       <div className="w-full">
         <div className="relative flex flex-col pt-32 pb-16 lg:pb-28 gap-8 items-start justify-center bg-[#13294b] px-[5%] ">
           <h3 className="text-[#47d7ac] text-lg lg:text-3xl">{area}</h3>

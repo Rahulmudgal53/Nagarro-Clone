@@ -35,9 +35,9 @@ const Navbar = () => {
                   <NavLink
                     to={item.href}
                     className={({ isActive }) =>
-                      `font-semibold ${
+                      `font-equip ${
                         isActive
-                          ? "text-orange-500 font-extrabold"
+                          ? "text-orange-500 font-semibold"
                           : "text-black hover:text-blue-500"
                       }`
                     }

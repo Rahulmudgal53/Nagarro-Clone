@@ -30,6 +30,13 @@ const HeroData = {
             value we generate, and even how fun it is to work with us!`
       },
       
+    services: {
+        area: "services",
+        title: "What we can do and how we deliver on our Thinking Breakthroughs promise",
+        description:
+        `Call it what you want - innovation, disruption or transformation - it touches every part of your business. We are your turnkey partner. We are known for our agile entrepreneurship, for our client centricity, for the value we generate. And even for how fun it is to work with us!`
+      },
+      
       careers: {
         area: "JOIN OUR TEAM",
         title: "Work With Purpose",

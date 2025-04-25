@@ -5,7 +5,7 @@ import {  RouterProvider,  createBrowserRouter,  createRoutesFromElements,  Rout
 import ReactDOM from "react-dom/client";
 
 
-import {Homepage, Industries} from './pages/index.jsx';
+import {Homepage, Industries, Services} from './pages/index.jsx';
 
 import {Layout , NotFound} from "./components/index.jsx";
 
@@ -17,6 +17,7 @@ const router = createBrowserRouter(
 
       <Route path="/" element={<Homepage />} />
       <Route path="/industries" element={<Industries />} />
+      <Route path="/services" element={<Services />} />
 
       {/* For Random path */}
       <Route path="*" element={<NotFound />} />
