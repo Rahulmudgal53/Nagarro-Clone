@@ -1,4 +1,26 @@
-body{
+/* body{
     font-family: 'equinox', sans-serif;
     color: #13294b;
-}
+} */
+
+body {
+    /* font-family: 'Orbitron', sans-serif; */
+
+    font-family: 'Poppins', sans-serif;
+    color: #13294b;
+
+  }
+
+
+/* index.css or App.css */
+@font-face {
+    font-family: 'EquipExtended';
+    src: url('/fonts/EquipExtended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'EquipExtended', sans-serif;
+  }
+  

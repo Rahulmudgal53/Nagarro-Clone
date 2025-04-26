@@ -1,22 +1,23 @@
-import React from 'react'
-import HeroData from '../../constants/HeroData';
-import Hero from '../../utils/Hero';
+import React from "react";
+import HeroData from "../../constants/HeroData";
+import Hero from "../../utils/Hero";
+import CardMap from "../../utils/CardMap";
+import { services } from "../../constants/ListItems";
 
 function Services() {
-
-    const { area, title, description, button } = HeroData.pages.services;
+  const { area, title, description, button } = HeroData.pages.services;
 
   return (
     <div>
-        <Hero
+      <Hero
         area={area}
         title={title}
         description={description}
         button={button}
       />
-
+      <CardMap title={'our services'} content={services} />
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;

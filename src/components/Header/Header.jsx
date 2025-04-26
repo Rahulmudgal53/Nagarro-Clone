@@ -16,8 +16,8 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 py-2 font-equip bg-white border-b border-neutral-700">
-      <div className="container  px-4 mx-auto relative text-sm">
-        <div className="flex justify-between px-4 items-center">
+      <div className="container px-4  mx-auto relative text-sm">
+        <div className="flex justify-between items-center">
           {/* Logo on the left */}
 
           {/* <div className="flex items-center justify-start flex-shrink-0">

@@ -13,8 +13,8 @@ import { footerNavItem } from "../../constants";
 function Footer() {
   return (
     <div className="">
-      <div className="flex flex-col justify-around items-center lg:flex-row py-12 lg:py-24 px-[10%] bg-[#13294b] text-white">
-        <h2 className="text-2xl lg:text-3xl max-w-sm">What can we help you achieve?</h2>
+      <div className="flex flex-col justify-between items-center lg:flex-row py-12 lg:py-24 px-[15%] bg-[#13294b] text-white">
+        <h2 className="text-2xl lg:text-4xl max-w-sm">What can we help you achieve?</h2>
         <div className="flex flex-col gap-4 text-sm mt-10">
           <Button className={`text-black`} name={"Work With Us"} />
           <Button
@@ -23,19 +23,19 @@ function Footer() {
           />
         </div>
       </div>
-      <div className=" px-[10%] ">
-        <div className="flex flex-col justify-around items-center py-24 lg:flex-row">
-          <h2 className="text-lg lg:text-2xl lg:max-w-sm ">
+      <div className=" px-[15%] ">
+        <div className="flex flex-col justify-between items-center py-24 lg:flex-row">
+          <h2 className="text-lg lg:text-3xl lg:max-w-sm ">
             Stay up to date with insights from Nagarro!
           </h2>
           <div className="relative pt-12 lg:pt-0">
             <input
               type="email"
               placeholder="Email Address"
-              className="pr-24 max-w-[600px] p-2 border border-black rounded-full"
+              className="pr-24 text-sm p-4 max-w-[600px] border border-black rounded-full"
             />
             <Button
-              className={`absolute bottom-1 right-1 p-2 px-4 text-[12px] text-white bg-[#13294b]`}
+              className={`absolute bottom-2 right-2 p-2 mb-0.5 px-4 text-[12px] text-white bg-[#13294b]`}
               name={"Subscribe"}
             />
           </div>

@@ -6,7 +6,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        equip: ['Equip', 'sans-serif'],
+        equip: ['EquipExtended', 'sans-serif'],
+        orbitron: ['Orbitron', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+
+
       },
     },
   },
