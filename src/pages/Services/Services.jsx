@@ -1,6 +1,6 @@
 import React from "react";
 import HeroData from "../../constants/HeroData";
-import Hero from "../../utils/Hero";
+import Hero from "../../components/Hero/Hero";
 import CardMap from "../../utils/CardMap";
 import { services } from "../../constants/ListItems";
 

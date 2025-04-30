@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../utils/Hero";
+import Hero from "../../components/Hero/Hero";
 import heroData from "../../constants/HeroData";
 import { industries } from "../../constants/ListItems";
 import { FiArrowRight } from 'react-icons/fi';

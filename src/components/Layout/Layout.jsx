@@ -13,7 +13,7 @@ const Layout = () => {
 
     return (
         <div className="flex flex-col min-h-screen bg-gray-100">
-        <Header />
+        <Header className="absolute z-50 w-full"/>
         <main className={`flex-grow ${isHomePage ? "bg-white" : "bg-gray-100"}`}>
             <Outlet />
             <ScrollRestoration />

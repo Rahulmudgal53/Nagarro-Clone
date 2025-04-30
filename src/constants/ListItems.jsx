@@ -115,3 +115,61 @@ export const services = [
     },
   },
 ];
+
+export const regions = [
+  {
+    name: "Africa & Asia-Pacific",
+    countries: [
+      { name: "South Africa", flag: "https://flagcdn.com/w40/za.png" },
+      { name: "China", flag: "https://flagcdn.com/w40/cn.png" },
+      { name: "India", flag: "https://flagcdn.com/w40/in.png" },
+      { name: "Philippines", flag: "https://flagcdn.com/w40/ph.png" },
+      { name: "Singapore", flag: "https://flagcdn.com/w40/sg.png" },
+      { name: "Sri Lanka", flag: "https://flagcdn.com/w40/lk.png" },
+      { name: "Thailand", flag: "https://flagcdn.com/w40/th.png" },
+      { name: "Bahrain", flag: "https://flagcdn.com/w40/bh.png" },
+      { name: "Saudi Arabia", flag: "https://flagcdn.com/w40/sa.png" },
+      { name: "Kazakhstan", flag: "https://flagcdn.com/w40/kz.png" },
+      { name: "Australia", flag: "https://flagcdn.com/w40/au.png" },
+      { name: "Mauritius", flag: "https://flagcdn.com/w40/mu.png" },
+    ],
+  },
+  {
+    name: "Central & South America",
+    countries: [
+      { name: "Ecuador", flag: "https://flagcdn.com/w40/ec.png" },
+      { name: "Mexico", flag: "https://flagcdn.com/w40/mx.png" },
+    ],
+  },
+  {
+    name: "Europe",
+    countries: [
+      { name: "Austria", flag: "https://flagcdn.com/w40/at.png" },
+      { name: "Denmark", flag: "https://flagcdn.com/w40/dk.png" },
+      { name: "Finland", flag: "https://flagcdn.com/w40/fi.png" },
+      { name: "France", flag: "https://flagcdn.com/w40/fr.png" },
+      { name: "Germany", flag: "https://flagcdn.com/w40/de.png" },
+      { name: "Ireland", flag: "https://flagcdn.com/w40/ie.png" },
+      { name: "Netherlands", flag: "https://flagcdn.com/w40/nl.png" },
+      { name: "Norway", flag: "https://flagcdn.com/w40/no.png" },
+      { name: "Portugal", flag: "https://flagcdn.com/w40/pt.png" },
+      { name: "Romania", flag: "https://flagcdn.com/w40/ro.png" },
+      { name: "Spain", flag: "https://flagcdn.com/w40/es.png" },
+      { name: "Sweden", flag: "https://flagcdn.com/w40/se.png" },
+      { name: "Switzerland", flag: "https://flagcdn.com/w40/ch.png" },
+      { name: "United Kingdom", flag: "https://flagcdn.com/w40/gb.png" },
+    ],
+  },
+  {
+    name: "Middle East",
+    countries: [{ name: "UAE", flag: "https://flagcdn.com/w40/ae.png" }],
+  },
+  {
+    name: "North America",
+    countries: [
+      { name: "Canada", flag: "https://flagcdn.com/w40/ca.png" },
+      { name: "Mexico", flag: "https://flagcdn.com/w40/mx.png" },
+      { name: "United States", flag: "https://flagcdn.com/w40/us.png" },
+    ],
+  },
+];

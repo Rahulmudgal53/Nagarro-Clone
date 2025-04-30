@@ -12,6 +12,15 @@ export default {
 
 
       },
+      colors: {
+        primary: '#47d7ac',
+        secondary: '#13294b',
+        accent: '#ff6b6b',
+        darkBlue: '#1e3a8a',
+        lightGray: '#f5f5f5',
+        brandYellow: '#facc15',
+        // You can define as many as you want
+      },
     },
   },
   plugins: [],
