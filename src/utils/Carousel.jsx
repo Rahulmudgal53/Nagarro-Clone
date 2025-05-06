@@ -34,27 +34,28 @@ export default function Carousel({
       </div>
 
       {/* Navigation arrows */}
-      <div className="absolute inset-0 flex items-center justify-between px-4">
+      <div className="absolute inset-0 flex items-end justify-between sm:justify-center sm:gap-[60%] mb-20 px-4">
         <button
           onClick={prev}
-          className="p-2 rounded-full shadow bg-white/70 text-gray-800 hover:bg-white transition"
+          className="p-2 rounded-full shadow bg-white/30 text-gray-800 hover:bg-white transition"
         >
           <ChevronLeft size={32} />
         </button>
         <button
           onClick={next}
-          className="p-2 rounded-full shadow bg-white/70 text-gray-800 hover:bg-white transition"
+          className="p-2 rounded-full shadow bg-white/30 text-gray-800 hover:bg-white transition"
         >
           <ChevronRight size={32} />
         </button>
       </div>
 
       {/* Pagination dots */}
-      <div className="absolute bottom-6 left-0 right-0 flex items-center justify-center gap-3">
+      <div className="absolute bottom-20 left-0 right-0 flex items-center justify-center gap-3">
         {slides.map((_, i) => (
           <div
             key={i}
-            className={`w-3 h-3 rounded-full transition-all ${
+            onClick={() => setCurr(i)}
+            className={`w-3 h-3 sm:w-[10%] sm:h-1 cursor-pointer  rounded-full transition-all ${
               curr === i ? "bg-white" : "bg-white/50"
             }`}
           />

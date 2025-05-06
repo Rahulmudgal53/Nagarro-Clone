@@ -131,7 +131,7 @@ const Navbar = ({ className = '' }) => {
 
         {/* Mobile Drawer */}
         {mobileDrawerOpen && (
-          <div className="fixed h-screen top-0 right-0 z-20 bg-secondary w-1/2 p-10 flex flex-col justify-start items-left text-left lg:hidden">
+          <div className="fixed h-screen top-0 right-0 z-20 bg-secondary w-full md:w-1/2 xl:w-1/3 p-10 flex flex-col justify-start items-left text-left lg:hidden">
             <ul>
               {HeaderNavItems.map((item, index) => (
                 <li className="py-1 text-base" key={index}>
